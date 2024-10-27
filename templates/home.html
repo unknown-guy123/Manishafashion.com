@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/static/styles.css" />
+    <link rel="icon" href="/static/image1.jpg" type="image/x-icon" />
+    <title>Manishafashion.com</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <h1 class="logo">MyLogo</h1>
+        <ul class="nav-links">
+          <li>
+            <a href="{{url_for('index')}}">Store</a>
+          </li>
+          <li>
+            <a href="{{url_for('about')}}">about</a>
+          </li>
+          <li>
+            <a href="{{url_for('contact')}}">contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <h2>Welcome to Our Website</h2>
+        <p>Your journey begins here. Discover our services and offerings!</p>
+        <a href="#services" class="cta-button">Learn More</a>
+      </section>
+      <section class="content">
+        <h3>Our Services</h3>
+        <p>We offer a variety of services to help you achieve your goals.</p>
+        <!-- Additional content can go here -->
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2024 MyWebsite. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
