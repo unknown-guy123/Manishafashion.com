@@ -1,3 +1,4 @@
+plaintext
 Flask
 Flask_SQLALchemy
 Flask_Admin
