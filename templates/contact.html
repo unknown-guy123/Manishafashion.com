@@ -10,7 +10,7 @@
   <body>
     <header>
       <nav class="navbar">
-        <h1 class="logo">MyLogo</h1>
+        <h1 class="logo">ManishaFashion</h1>
         <ul class="nav-links">
           <li><a href="{{url_for('home')}}">Home</a></li>
           <li><a href="{{url_for('about')}}">about</a></li>
@@ -39,5 +39,10 @@
     <footer>
       <p>&copy; 2024 MyWebsite. All rights reserved.</p>
     </footer>
+    <ul>
+      {% for contact in contacts %}
+      <li>{{ contact.name }} - {{ contact.email }} - {{ contact.message }}</li>
+      {% endfor %}
+    </ul>
   </body>
 </html>
