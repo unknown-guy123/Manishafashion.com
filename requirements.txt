@@ -1,0 +1,6 @@
+plaintext
+Flask
+Flask_SQLALchemy
+Flask_Admin
+psycopg2_binary
+gunicor

@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: app
+    env: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicon app:app
